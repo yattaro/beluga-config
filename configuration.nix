@@ -14,7 +14,6 @@
       htop
       cmake
       ninja
-      iperf3
       ffmpeg
       mos
       wget
@@ -33,9 +32,8 @@
 
   # Create /etc/zshrc that loads the nix-darwin environment.
   programs.zsh.enable = true;  # default shell on catalina
-  # programs.fish.enable = true;
 
   # Used for backwards compatibility, please read the changelog before changing.
   # $ darwin-rebuild changelog
-  system.stateVersion = 4;
+  system.stateVersion = 6;
 }
